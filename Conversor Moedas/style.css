@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("moeda.jpg");
+    background-size: 100%;
+    background-position: auto;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+}
+
+.page-title {
+    color: #000;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: underline overline;
+    text-decoration-color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.page-logo {
+    background-color: black;
+    width: 200px;
+}
+
+.alura-logo {
+    background-color: black;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline underline;
+    text-decoration-color: red;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+h2 {
+    color: #000000;
+    font-size: 30px;
+    text-decoration: underline overline;
+    text-decoration-color: red;
+}
