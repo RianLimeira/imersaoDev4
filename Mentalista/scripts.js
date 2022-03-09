@@ -24,4 +24,9 @@ function Chutar() {
     }
 }
 
+function Reiniciar() {
+    window.location.reload()
+
+}
+
 var numberSecret = parseInt(Math.random() * 11);
