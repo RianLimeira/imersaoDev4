@@ -103,11 +103,18 @@ function jogar() {
     var cartJogador = cartaJogador.atributos[atributoSelecionado]
     var cartMaquina = cartaMaquina.atributos[atributoSelecionado]
     if (cartJogador > cartMaquina) {
+
         resultados = `<p class='resultado-final'>YOU WIN</p>`
+        document.getElementById("carta-jogador").style.transform = 'scale(1.2)'
     } else if (cartMaquina > cartJogador) {
+
         resultados = `<p class='resultado-final'>GAME OVER</p>`
+        document.getElementById("carta-maquina").style.transform = 'scale(1.2)'
     } else {
+
         resultados = `<p class='resultado-final'>EMPATED</p>`
+        document.getElementById("carta-jogador").style.transform = 'scale(1.2)'
+        document.getElementById("carta-maquina").style.transform = 'scale(1.2)'
     }
     resultado.innerHTML = resultados
 
