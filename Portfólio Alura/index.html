@@ -3,28 +3,33 @@
 
 <body>
     <div class="container">
-        <header class="perfil">
-            <link rel="stylesheet" href="style.css">
-            <img class="perfil-foto" src="https://github.com/RianLimeira.png" />
-            <div class="titulo">
-                <h1>Rian Limeira</h1>
-                <h3>Desenvolvedor de Programação</h3>
+        <header class="cabecalho">
+            <div class="perfil">
+                <link rel="stylesheet" href="style.css">
+                <img class="perfil-foto" src="https://github.com/RianLimeira.png" />
+                <div class="titulo">
+                    <h1>Rian Limeira</h1>
+                    <h3>Estudante de Programação</h3>
+                </div>
+            </div>
+            <div class="tema">
+                <button onclick="mudarTema()">Alterar Tema</button>
             </div>
 
         </header>
         <main class="projetos">
-            <ul>
+            <ul class="projetos-title">
                 Projetos
             </ul>
-            <li><a href="/Conversor Moedas/index.html">🔢Conversor de Moedas</a></li>
-            <li><a href="/Mentalista/index.html">🎲Mentalista</a></li>
-            <li><a href="/Tabelas de classificação/index.html">#️Classificações</a></li>
-            <li><a href="/RianFlix/index.html">📲RianFlix🎬</a></li>
-            <li><a href="/Super Trunfo/index.html">🎮SuperTrunfo</a></li>
-            <li><a href="/Portfólio Alura/index.html">Certifard</a></li>
-
+            <li class="projetos-itens"><a href="/Conversor Moedas/index.html">🔢Conversor de Moedas</a></li>
+            <li class="projetos-itens"><a href="/Mentalista/index.html">🎲Mentalista</a></li>
+            <li class="projetos-itens"><a href="/Tabelas de classificação/index.html">#️Classificações</a></li>
+            <li class="projetos-itens"><a href="/RianFlix/index.html">📲RianFlix🎬</a></li>
+            <li class="projetos-itens"><a href="/Super Trunfo/index.html">🎮SuperTrunfo</a></li>
+            <li class="projetos-itens"><a href="/Portfólio Alura/index.html">Certifard</a></li>
         </main>
     </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
